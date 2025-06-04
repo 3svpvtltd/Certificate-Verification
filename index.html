@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificate Verification | 3SV Software Solutions</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <!-- Navigation -->
+<nav class="navbar">
+    <div class="container">
+        <div class="logo">
+            <span class="logo-icon">
+                <img src="logo.png" alt="3SV Logo">
+            </span>
+            
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="https://3svpvtltd.github.io/3SV-Software-Solutions/">Programs</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="https://3svpvtltd.github.io/3SV-Software-Solutions/" class="apply-btn">Apply Now</a></li>
+        </ul>
+        <button class="mobile-menu">☰</button>
+    </div>
+</nav>
+
+
+    <!-- Ad Bar -->
+    <div class="ad-bar">
+        <div class="ad-content">
+            <div class="ad-text">
+                New internship batch starting next month! Apply now. • 
+                Congratulations to our interns who got placed at top tech companies! • 
+                Learn industry-relevant skills with our specialized training programs. • 
+                Join our webinar on 'Career in Software Development' this weekend. • 
+                3SV Software Solutions ranked among top internship providers in 2025!
+            </div>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Verify Your <span>Internship Certificate</span></h1>
+                <p>Authenticate your internship certification from 3SV Software Solutions with our secure verification system.</p>
+                <div class="features">
+                    <div class="feature">
+                        <span class="feature-icon">✓</span>
+                        <span>Instant Verification</span>
+                    </div>
+                    <div class="feature">
+                        <span class="feature-icon">🔒</span>
+                        <span>Secure Process</span>
+                    </div>
+                    <div class="feature">
+                        <span class="feature-icon">📄</span>
+                        <span>Official Records</span>
+                    </div>
+                </div>
+            </div>
+            <div class="verification-form">
+                <div class="form-container">
+                    <h2>Verify Your Certificate</h2>
+                    <form id="certForm">
+                        <div class="input-group">
+                            <label for="certificateId">Certificate ID</label>
+                            <input type="text" id="certificateId" placeholder="Enter your certificate ID">
+                        </div>
+                        <button type="submit" id="verifyBtn">
+                            <span class="btn-text">Verify Certificate</span>
+                            <span class="loader"></span>
+                        </button>
+                    </form>
+                    <p class="form-hint">Enter the certificate ID provided on your internship certificate</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Verification Result Modal -->
+    <div id="resultModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <div class="result-header">
+                <div class="success-icon">✓</div>
+                <h3>Certificate Verified</h3>
+                <p>This certificate is valid and was issued by 3SV Software Solutions</p>
+            </div>
+            <div class="certificate-details">
+                <!-- Details will be populated by JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content" id="contact">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <span class="logo-icon">🎓</span>
+                        <span>3SV Software</span>
+                    </div>
+                    <p>Empowering the next generation of tech talent through quality internship programs.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook">📱</a>
+                        <a href="#" aria-label="Twitter">📱</a>
+                        <a href="#" aria-label="LinkedIn">📱</a>
+                        <a href="#" aria-label="Instagram">📱</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Programs</a></li>
+                    
+                        <li><a href="https://3svpvtltd.github.io/3SV-Software-Solutions/">Apply Now</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Our Programs</h3>
+                    <ul>
+                        <li><a href="https://3svpvtltd.github.io/3SV-Software-Solutions/">Web Development</a></li>
+                        <li><a href="https://3svpvtltd.github.io/3SV-Software-Solutions/">Python Development</a></li>
+                        <li><a href="https://3svpvtltd.github.io/3SV-Software-Solutions/">Data Analyst</a></li>
+                        <li><a href="https://3svpvtltd.github.io/3SV-Software-Solutions/">AI Prompt Engineering</a></li>
+                        
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Us</h3>
+                    <div class="contact-info">
+                        <p>📍 Pune, Maharashtra, India</p>
+                        <p>📞 9403701424</p>
+                        <p>📧 3svpvtltd@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 3SV Software Solutions. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
