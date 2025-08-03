@@ -10,6 +10,18 @@ const certificates = [
         issuedBy: 'Dr. Umesh Pawar, HOD',
         status: 'valid'
     },
+
+     {
+        id: '3SV2025001',
+        internName: 'Wavdhane chaitali Dattatray',
+        program: 'Python Developer',
+        duration: '20/06/2025 - 20/07/2025 (1 months)',
+        skills: ['Flask', 'Pandas', 'Tabula'],
+        issueDate: 'AUG 03, 2025',
+        issuedBy: 'Sai Chechare (Project Manager)',
+        status: 'valid'
+    },
+    
     {
         id: '220105131207',
         internName: 'Sameer Pawar',
@@ -143,4 +155,5 @@ window.addEventListener('click', (e) => {
     if (e.target === modal) {
         modal.style.display = 'none';
     }
+
 });
