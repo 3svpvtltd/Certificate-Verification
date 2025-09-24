@@ -21,6 +21,40 @@ const certificates = [
         issuedBy: 'Sai Chechare (Project Manager)',
         status: 'valid'
     },
+
+    {
+        id: '3SV2025011',
+        internName: 'Sameer Ratnakar Pawar',
+        program: 'Python Developer',
+        duration: '15/06/2025 - 15/08/2025 (2 months)',
+        skills: ['Flask', 'Pandas', 'Tabula'],
+        issueDate: 'AUG 20, 2025',
+        issuedBy: 'Mr. Shantaram Pawar (Cluster Manager)',
+        status: 'valid'
+    },
+
+     {
+        id: '3SV2025012',
+        internName: 'Sai Pandurang Chechare',
+        program: 'Python Developer',
+        duration: '15/06/2025 - 15/08/2025 (2 months)',
+        skills: ['Flask', 'Pandas', 'Tabula'],
+        issueDate: 'AUG 20, 2025',
+        issuedBy: 'Mr. Shantaram Pawar (Cluster Manager)',
+        status: 'valid'
+    },
+
+     {
+        id: '3SV2025013',
+        internName: 'Pranav Ravindra Patil',
+        program: 'FrontEnd Developer',
+        duration: '15/06/2025 - 15/08/2025 (2 months)',
+        skills: ['React', 'JavaScript', 'NodeJS'],
+        issueDate: 'AUG 20, 2025',
+        issuedBy: 'Mr. Pratik Mane (Cluster Manager)',
+        status: 'valid'
+    },
+    
     
     {
         id: '220105131207',
@@ -157,3 +191,4 @@ window.addEventListener('click', (e) => {
     }
 
 });
+
