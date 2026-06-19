@@ -5,7 +5,7 @@ const certificates = [
         internName: 'Sai Pandurang Chechare',
         designation: 'Web Developer Intern',
         duration: 'September 2025 - February 2026 (6 months)',
-        
+        skills: 'Web Development',
         issueDate: 'February 15, 2026',
         issuedBy: 'Mr. Sameer Pawar, Project Manager',
         status: 'valid'
@@ -16,6 +16,7 @@ const certificates = [
         internName: 'Wavdhane chaitali Dattatray',
         designation: 'Python Developer',
         duration: '20/06/2025 - 20/07/2025 (1 months)',
+         skills: 'flask, Django, FastAPI'.
         issueDate: 'AUG 03, 2025',
         issuedBy: 'Sai Chechare (Project Manager)',
         status: 'valid'
@@ -26,7 +27,7 @@ const certificates = [
         internName: 'Sameer Ratnakar Pawar',
         designation: 'Python Developer',
         duration: '15/06/2025 - 15/08/2025 (2 months)',
-       
+        skills: 'flask, Django, FastAPI, Pandas',
         issueDate: 'AUG 20, 2025',
         issuedBy: 'Mr. Shantaram Pawar (Cluster Manager)',
         status: 'valid'
@@ -37,7 +38,7 @@ const certificates = [
         internName: 'Sai Pandurang Chechare',
         designation: 'Python Developer',
         duration: '15/06/2025 - 15/08/2025 (2 months)',
-      
+         skills: '',
         issueDate: 'AUG 20, 2025',
         issuedBy: 'Mr. Shantaram Pawar (Cluster Manager)',
         status: 'valid'
@@ -48,7 +49,7 @@ const certificates = [
         internName: 'Pranav Ravindra Patil',
         designation: 'FrontEnd Developer',
         duration: '15/06/2025 - 15/08/2025 (2 months)',
-       
+         skills: 'HTML, CSS, JS, React',
         issueDate: 'AUG 20, 2025',
         issuedBy: 'Mr. Pratik Mane (Cluster Manager)',
         status: 'valid'
@@ -60,7 +61,7 @@ const certificates = [
         internName: 'Sameer Pawar',
         designation: 'UI/UX Design Internship',
         duration: 'February 2025 - May 2025 (3 months)',
-      
+        skills: 'HTML, CSS, JS',
         issueDate: 'May 15, 2025',
         issuedBy: 'Sumit Jadhav, Design Lead',
         status: 'valid'
