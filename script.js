@@ -1,22 +1,20 @@
 // Sample certificate data
 const certificates = [
     {
-        id: '220105131428',
-        internName: 'Sai Chechare',
-        program: 'Full Stack Web Development Internship',
-        duration: 'January 2025 - April 2025 (3 months)',
-        skills: ['React', 'Node.js', 'MongoDB', 'Express'],
-        issueDate: 'April 30, 2025',
-        issuedBy: 'Dr. Umesh Pawar, HOD',
+        id: '3SV2025265',
+        internName: 'Sai Pandurang Chechare',
+        Designation: 'Web Developer Intern',
+        duration: 'September 2025 - February 2026 (6 months)',
+        issueDate: 'February 15, 2026',
+        issuedBy: 'Mr. Sameer Pawar, Project Manager',
         status: 'valid'
     },
 
      {
         id: '3SV2025001',
         internName: 'Wavdhane chaitali Dattatray',
-        program: 'Python Developer',
+        Designation: 'Python Developer',
         duration: '20/06/2025 - 20/07/2025 (1 months)',
-        skills: ['Flask', 'Pandas', 'Tabula'],
         issueDate: 'AUG 03, 2025',
         issuedBy: 'Sai Chechare (Project Manager)',
         status: 'valid'
@@ -25,9 +23,9 @@ const certificates = [
     {
         id: '3SV2025011',
         internName: 'Sameer Ratnakar Pawar',
-        program: 'Python Developer',
+        Designation: 'Python Developer',
         duration: '15/06/2025 - 15/08/2025 (2 months)',
-        skills: ['Flask', 'Pandas', 'Tabula'],
+       
         issueDate: 'AUG 20, 2025',
         issuedBy: 'Mr. Shantaram Pawar (Cluster Manager)',
         status: 'valid'
@@ -36,9 +34,9 @@ const certificates = [
      {
         id: '3SV2025012',
         internName: 'Sai Pandurang Chechare',
-        program: 'Python Developer',
+        Designation: 'Python Developer',
         duration: '15/06/2025 - 15/08/2025 (2 months)',
-        skills: ['Flask', 'Pandas', 'Tabula'],
+      
         issueDate: 'AUG 20, 2025',
         issuedBy: 'Mr. Shantaram Pawar (Cluster Manager)',
         status: 'valid'
@@ -47,9 +45,9 @@ const certificates = [
      {
         id: '3SV2025013',
         internName: 'Pranav Ravindra Patil',
-        program: 'FrontEnd Developer',
+        Designation: 'FrontEnd Developer',
         duration: '15/06/2025 - 15/08/2025 (2 months)',
-        skills: ['React', 'JavaScript', 'NodeJS'],
+       
         issueDate: 'AUG 20, 2025',
         issuedBy: 'Mr. Pratik Mane (Cluster Manager)',
         status: 'valid'
@@ -59,9 +57,9 @@ const certificates = [
     {
         id: '220105131207',
         internName: 'Sameer Pawar',
-        program: 'UI/UX Design Internship',
+        Designation: 'UI/UX Design Internship',
         duration: 'February 2025 - May 2025 (3 months)',
-        skills: ['Figma', 'Adobe XD', 'User Research', 'Prototyping'],
+      
         issueDate: 'May 15, 2025',
         issuedBy: 'Sumit Jadhav, Design Lead',
         status: 'valid'
