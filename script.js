@@ -16,7 +16,7 @@ const certificates = [
         internName: 'Wavdhane chaitali Dattatray',
         designation: 'Python Developer',
         duration: '20/06/2025 - 20/07/2025 (1 months)',
-         skills: 'flask, Django, FastAPI'.
+         skills: 'flask, Django, FastAPI',
         issueDate: 'AUG 03, 2025',
         issuedBy: 'Sai Chechare (Project Manager)',
         status: 'valid'
@@ -149,31 +149,31 @@ function showCertificateDetails(certificate) {
     certificateDetails.innerHTML = `
         <div class="detail-item">
             <h4>Intern Name</h4>
-            <p>${certificate.internName}</p>
+            <p>${certificate.internName || ''}</p>
         </div>
         <div class="detail-item">
             <h4>Certificate ID</h4>
-            <p>${certificate.id}</p>
+            <p>${certificate.id || ''}</p>
         </div>
         <div class="detail-item">
             <h4>Program</h4>
-            <p>${certificate.program}</p>
+            <p>${certificate.designation || certificate.program || ''}</p>
         </div>
         <div class="detail-item">
             <h4>Duration</h4>
-            <p>${certificate.duration}</p>
+            <p>${certificate.duration || ''}</p>
         </div>
         <div class="detail-item">
             <h4>Skills</h4>
-            <p>${certificate.skills.join(', ')}</p>
+            <p>${Array.isArray(certificate.skills) ? certificate.skills.join(', ') : (certificate.skills || '')}</p>
         </div>
         <div class="detail-item">
             <h4>Issue Date</h4>
-            <p>${certificate.issueDate}</p>
+            <p>${certificate.issueDate || ''}</p>
         </div>
         <div class="detail-item">
             <h4>Issued By</h4>
-            <p>${certificate.issuedBy}</p>
+            <p>${certificate.issuedBy || ''}</p>
         </div>
     `;
     modal.style.display = 'flex';
