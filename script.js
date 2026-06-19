@@ -3,8 +3,9 @@ const certificates = [
     {
         id: '3SV2025265',
         internName: 'Sai Pandurang Chechare',
-        Designation: 'Web Developer Intern',
+        designation: 'Web Developer Intern',
         duration: 'September 2025 - February 2026 (6 months)',
+        
         issueDate: 'February 15, 2026',
         issuedBy: 'Mr. Sameer Pawar, Project Manager',
         status: 'valid'
@@ -13,7 +14,7 @@ const certificates = [
      {
         id: '3SV2025001',
         internName: 'Wavdhane chaitali Dattatray',
-        Designation: 'Python Developer',
+        designation: 'Python Developer',
         duration: '20/06/2025 - 20/07/2025 (1 months)',
         issueDate: 'AUG 03, 2025',
         issuedBy: 'Sai Chechare (Project Manager)',
@@ -23,7 +24,7 @@ const certificates = [
     {
         id: '3SV2025011',
         internName: 'Sameer Ratnakar Pawar',
-        Designation: 'Python Developer',
+        designation: 'Python Developer',
         duration: '15/06/2025 - 15/08/2025 (2 months)',
        
         issueDate: 'AUG 20, 2025',
@@ -34,7 +35,7 @@ const certificates = [
      {
         id: '3SV2025012',
         internName: 'Sai Pandurang Chechare',
-        Designation: 'Python Developer',
+        designation: 'Python Developer',
         duration: '15/06/2025 - 15/08/2025 (2 months)',
       
         issueDate: 'AUG 20, 2025',
@@ -45,7 +46,7 @@ const certificates = [
      {
         id: '3SV2025013',
         internName: 'Pranav Ravindra Patil',
-        Designation: 'FrontEnd Developer',
+        designation: 'FrontEnd Developer',
         duration: '15/06/2025 - 15/08/2025 (2 months)',
        
         issueDate: 'AUG 20, 2025',
@@ -57,7 +58,7 @@ const certificates = [
     {
         id: '220105131207',
         internName: 'Sameer Pawar',
-        Designation: 'UI/UX Design Internship',
+        designation: 'UI/UX Design Internship',
         duration: 'February 2025 - May 2025 (3 months)',
       
         issueDate: 'May 15, 2025',
