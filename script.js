@@ -65,6 +65,26 @@ const certificates = [
         issueDate: 'May 15, 2025',
         issuedBy: 'Sumit Jadhav, Design Lead',
         status: 'valid'
+    },
+    {
+        id: '3SV202634',
+        internName: 'Aditya Mathur',
+        designation: 'Java Backend Developer',
+        duration: '01 - July - 2026 - 30 - July-  2026 (1 month)',
+        skills: 'Java basics, Spring Boot, Spring ecosystem, database management ',
+        issueDate: 'Jun 29, 2026',
+        issuedBy: 'Khushi Mandlik, Java Developer ',
+        status: 'valid'
+    },
+     {
+        id: '3SV202635',
+        internName: 'Arman Hussain',
+        designation: 'Java Backend Developer',
+        duration: '01 - July - 2026 - 30 - July-  2026 (1 month)',
+        skills: 'Java basics, Spring Boot, Spring ecosystem, database management ',
+        issueDate: 'Jun 29, 2026',
+        issuedBy: 'Khushi Mandlik, Java Developer ',
+        status: 'valid'
     }
 ];
 
